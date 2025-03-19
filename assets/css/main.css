@@ -795,13 +795,13 @@ a:hover {
 }
 
 body, p, span, li, a, label, input, textarea {
-  font-family: 'MadaniArabic', sans-serif !important;
+  font-family: 'MadaniArabic' !important;
   font-weight: normal !important;
 }
 
 /* ✅ استخدام الخط الغامق (Bold) للعناوين والعناصر البارزة */
 h1, h2, h3, h4, h5, h6, strong, b, th, button, .btn, .highlight {
-  font-family: 'MadaniArabic', sans-serif !important;
+  font-family: 'MadaniArabic' !important;
   font-weight: bold !important;
 }
 

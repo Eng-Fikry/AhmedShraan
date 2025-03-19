@@ -779,9 +779,8 @@ a:hover {
 @font-face {
   font-family: 'MadaniArabicBold';
   src: 
-       url('../../fonts/Madani\ Arabic\ Bold.woff2') format('woff2'),
-       url('../../fonts/Madani\ Arabic\ Bold.woff') format('woff'),
-       url('../../fonts/Madani\ Arabic\ Bold.ttf') format('truetype');
+       url('https://eng-fikry.github.io/AhmedShraan/fonts/Madani%20Arabic%20Bold.woff2') format('woff2'),
+       
   font-weight: bold;
   font-style: normal;
 }
@@ -789,9 +788,8 @@ a:hover {
 @font-face {
   font-family: 'MadaniArabic';
   src: 
-       url('../../fonts/Madani\ Arabic\ Regular.woff2') format('woff2'),
-       url('../../fonts/Madani\ Arabic\ Regular.woff') format('woff'),
-       url('../../fonts/Madani\ Arabic\ Regular.ttf') format('truetype');
+       url('https://eng-fikry.github.io/AhmedShraan/fonts/Madani%20Arabic%20Regular.woff2') format('woff2'),
+       
   font-weight: normal;
   font-style: normal;
 }

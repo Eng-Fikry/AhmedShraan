@@ -778,30 +778,33 @@ a:hover {
 }
 @font-face {
   font-family: 'MadaniArabicBold';
-  src: url('Madani Arabic Bold.woff2') format('woff2'),
-       url('Madani Arabic Bold.woff') format('woff'),
-       url('Madani Arabic Bold.ttf') format('truetype');
+  src: 
+       url('../../fonts/Madani\ Arabic\ Bold.woff2') format('woff2'),
+       url('../../fonts/Madani\ Arabic\ Bold.woff') format('woff'),
+       url('../../fonts/Madani\ Arabic\ Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'MadaniArabic';
-  src: url('fonts/Madani Arabic Regular.woff2') format('woff2'),
-       url('fonts/Madani Arabic Regular.woff') format('woff'),
-       url('fonts/Madani Arabic Regular.ttf') format('truetype');
+  src: 
+       url('../../fonts/Madani\ Arabic\ Regular.woff2') format('woff2'),
+       url('../../fonts/Madani\ Arabic\ Regular.woff') format('woff'),
+       url('../../fonts/Madani\ Arabic\ Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
+/* ✅ تطبيق الخط العادي للنصوص العادية */
 body, p, span, li, a, label, input, textarea {
-  font-family: 'MadaniArabic' !important;
+  font-family: 'MadaniArabic', sans-serif !important;
   font-weight: normal !important;
 }
 
-/* ✅ استخدام الخط الغامق (Bold) للعناوين والعناصر البارزة */
+/* ✅ تطبيق الخط الغامق للعناوين والعناصر البارزة */
 h1, h2, h3, h4, h5, h6, strong, b, th, button, .btn, .highlight {
-  font-family: 'MadaniArabic' !important;
+  font-family: 'MadaniArabicBold', sans-serif !important;
   font-weight: bold !important;
 }
 

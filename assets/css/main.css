@@ -11,11 +11,11 @@
 # Help: https://bootstrapmade.com/color-system/
 --------------------------------------------------------------*/
 /* Fonts */
-:root {
+/* :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Raleway",  sans-serif;
   --nav-font: "Inter",  sans-serif;
-}
+} */
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
@@ -77,7 +77,7 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -85,7 +85,7 @@ h5,
 h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
-}
+} */
 
 /* PHP Email Form Messages
 ------------------------------*/
@@ -806,6 +806,7 @@ h6 {
   font-weight: normal;
   font-style: normal;
 }
+
 body, p, span, li, a, label, input, textarea {
   font-family: 'MadaniArabic', sans-serif !important;
   font-weight: normal !important;

@@ -792,12 +792,14 @@ h6 {
 @font-face {
   font-family: 'MadaniArabicBold';
   src: url('Madani Arabic Bold.woff2') format('woff2');
+  src: url('Madani Arabic Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: 'MadaniArabic';
   src: url('fonts/Madani Arabic Regular.woff2') format('woff2');
+  src: url('fonts/Madani Arabic Regular.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }

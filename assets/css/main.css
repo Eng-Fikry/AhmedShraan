@@ -791,14 +791,19 @@ h6 {
 }
 @font-face {
   font-family: 'MadaniArabicBold';
-  src: url('Madani Arabic Bold.ttf') format('ttf');
+  src: url('Madani Arabic Bold.woff2') format('woff2'),
+       url('Madani Arabic Bold.woff') format('woff'),
+       url('Madani Arabic Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'MadaniArabic';
-  src: url('fonts/Madani Arabic Regular.ttf') format('ttf');
-  font-weight: bold;
+  src: url('fonts/Madani Arabic Regular.woff2') format('woff2'),
+       url('fonts/Madani Arabic Regular.woff') format('woff'),
+       url('fonts/Madani Arabic Regular.ttf') format('truetype');
+  font-weight: normal;
   font-style: normal;
 }
 body, p, span, li, a, label, input, textarea {

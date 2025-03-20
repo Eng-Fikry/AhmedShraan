@@ -207,3 +207,15 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+function sendEmail() {
+
+  let email = "eng.ahmedsharaan@gmail.com";
+  let subject = document.querySelector('input[name="subject"]').value;
+  let message = document.querySelector('textarea[name="message"]').value;
+
+
+  let mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
+
+
+  window.location.href = mailtoLink;
+}
